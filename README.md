@@ -1,4 +1,4 @@
-<h2 align="centre">🎵 VEEZ MUSIC BOT</h2>
+<h2 align="centre">🎼 REZ MUSIC BOT</h2>
 
 ### Rez Music is a telegram bot project that's allow you to play music on telegram voice chat group.
 
@@ -7,7 +7,7 @@
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 </p>
 
-<h3>Requirements 📝</h3>
+<h3>Requirements 📄</h3>
 
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
@@ -23,7 +23,7 @@
 
 [![Mentioned in Awesome Python](https://awesome.re/mentioned-badge.svg)](https://github.com/levina-lab/VeezMusic)
 
-## Features 🔮
+## Features 📓
 
 - Thumbnail Support
 - Playlist Support
@@ -41,7 +41,7 @@
 - Group Tools (ban/unban/mute/unmute)
 - Block / Unblock (restrict user for using your bot)
 
-## Commands 🛠
+## Commands 📚
 
 - `/play <song name>` - play song you requested
 - `/playlist` - Show now playing list
@@ -74,7 +74,7 @@
 - `/userbotleaveall` - order the assistant to leave all groups
 - `/gcast` - send a broadcast message from the assistant
 
-### Owner Only 👨🏻‍✈️
+### Owner Only 🕵️
 - `/broadcast` - send a broadcast message from the bot
 - `/block` - block people for using your bot
 - `/unblock` - unblock people you blocked for using your bot
