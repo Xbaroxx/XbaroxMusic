@@ -122,4 +122,4 @@ python3 main.py # Run the bot
 
 ### Support & Updates 🎑
 <a href="https://t.me/Brantass"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Hajisupportt"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/asalsenangg"><img src="https://img.shields.io/badge/Join-Group%20Mutualan-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/zaenbijak"><img src="https://img.shields.io/badge/Join%20ChannelQuets-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/asalsenangg"><img src="https://img.shields.io/badge/Join-Group%20Mutualan-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/zaenbijak"><img src="https://img.shields.io/badge/Join%20Channel Quets-blue.svg?style=for-the-badge&logo=Telegram"></a>
