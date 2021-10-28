@@ -146,7 +146,7 @@ def updated_stats(chat, queue, vol=100):
             stats += "\n\n"
             stats += "🎚 volume: {}%\n".format(vol)
             stats += "🎵 song played: `{}`\n".format(len(que))
-            stats += "💡 now playing: **{}**\n".format(queue[0][0])
+            stats += "🌈 now playing: **{}**\n".format(queue[0][0])
             stats += "🎧 request by: {}".format(queue[0][1].mention)
     else:
         stats = None
@@ -167,7 +167,7 @@ def r_ply(type_):
                 InlineKeyboardButton("⏭", "skip"),
             ],
             [
-                InlineKeyboardButton("📖 PLAY-LIST", "playlist"),
+                InlineKeyboardButton("🎬 PLAY-LIST", "playlist"),
             ],
             [InlineKeyboardButton("🗑 Close", "cls")],
         ]
@@ -385,7 +385,7 @@ async def m_cb(b, cb):
                     InlineKeyboardButton("⏭", "skip"),
                 ],
                 [
-                    InlineKeyboardButton("📖 PLAY-LIST", "playlist"),
+                    InlineKeyboardButton("🎬 PLAY-LIST", "playlist"),
                 ],
                 [InlineKeyboardButton("🗑 Close", "cls")],
             ]
@@ -524,7 +524,7 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ],
             ]
@@ -578,7 +578,7 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ],
             ]
@@ -607,8 +607,8 @@ async def play(_, message: Message):
             emojilist = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣"]
             while j < 5:
                 toxxt +=  f"{emojilist[j]} <b>Title - [{results[j]['title']}](https://youtube.com{results[j]['url_suffix']})</b>\n"
-                toxxt += f" ├• 💡 **Duration** - {results[j]['duration']}\n"
-                toxxt += f" └• ⚡ __Powered by {BOT_NAME} AI__\n\n"
+                toxxt += f" ├• **Duration** - {results[j]['duration']}\n"
+                toxxt += f" └• __Powered by {BOT_NAME} AI__\n\n"
                 j += 1
             keyboard = InlineKeyboardMarkup(
                 [
@@ -672,7 +672,7 @@ async def play(_, message: Message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                            "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                         )
                     ],
                 ]
@@ -712,8 +712,8 @@ async def play(_, message: Message):
             return
         await message.reply_photo(
             photo="final.png",
-            caption=f"🏷 **Name:** [{title[:80]}]({url})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n"
-            + f"🎧 **Request by:** {message.from_user.mention}",
+            caption=f" **Name:** [{title[:80]}]({url})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n"
+            + f" **Request by:** {message.from_user.mention}",
             reply_markup=keyboard,
         )
         os.remove("final.png")
@@ -777,7 +777,7 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("🖱 ᴍᴇɴᴜ", callback_data="menu"),
                 InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="cls"),
             ],
-            [InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")],
+            [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}")],
         ]
     )
     await generate_cover(title, thumbnail)
@@ -816,8 +816,8 @@ async def lol_cb(b, cb):
         await b.send_photo(
             chat_id,
             photo="final.png",
-            caption=f"🏷 **Name:** [{title[:80]}]({url})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n"
-            + f"🎧 **Request by:** {r_by.mention}",
+            caption=f" **Name:** [{title[:80]}]({url})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n"
+            + f" **Request by:** {r_by.mention}",
             reply_markup=keyboard,
         )
     if path.exists("final.png"):
@@ -933,9 +933,9 @@ async def ytplay(_, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
-                InlineKeyboardButton("✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
             ],
         ]
     )
@@ -974,8 +974,8 @@ async def ytplay(_, message: Message):
             return
         await message.reply_photo(
             photo="final.png",
-            caption=f"🏷 **Name:** [{title[:80]}]({url})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n"
-            + f"🎧 **Request by:** {message.from_user.mention}",
+            caption=f" **Name:** [{title[:80]}]({url})\n⏱ **Duration:** `{duration}`\n💡 **Status:** `Playing`\n"
+            + f" **Request by:** {message.from_user.mention}",
             reply_markup=keyboard,
         )
         os.remove("final.png")
