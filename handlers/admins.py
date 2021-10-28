@@ -74,9 +74,9 @@ async def controlset(_, message: Message):
                     InlineKeyboardButton("⏩ skip", callback_data="cbskip"),
                     InlineKeyboardButton("⏹ end", callback_data="cbend"),
                 ],
-                [InlineKeyboardButton("⛔ anti cmd", callback_data="cbdelcmds")],
-                [InlineKeyboardButton("🛄 group tools", callback_data="cbgtools")],
-                [InlineKeyboardButton("🗑 Close", callback_data="close")],
+                [InlineKeyboardButton("anti cmd", callback_data="cbdelcmds")],
+                [InlineKeyboardButton("group tools", callback_data="cbgtools")],
+                [InlineKeyboardButton("Close", callback_data="close")],
             ]
         ),
     )
