@@ -1,6 +1,6 @@
 {
-    "name": "Veez Music Bot",
-    "logo": "https://telegra.ph/file/9dd9b20abcda2d7bb6725.png",
+    "name": "XMusic Bot",
+    "logo": "https://telegra.ph/file/d88e4d58ed589ece3b42f.jpg",
     "description": "veez music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/levina-lab/veezmusic",
@@ -42,12 +42,12 @@
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "veezasisstant"
+            "value": "asisstantanda"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
             "required": false,
-            "value": "https://telegra.ph/file/20147c4f049e2c1f2f248.png"
+            "value": "https://telegra.ph/file/5a8e37b09b9daeb948350.png"
         },
         "OWNER_NAME": {
             "description": "fill with your username without @",
