@@ -2,7 +2,7 @@
 
 ### Barox Music is a telegram bot project that's allow you to play music on telegram voice chat group.
 
-<p align="center"><a href="https://t.me/Hajigobangbot"><img src="https://telegra.ph/file/9eef9c0d51eeaccec7c76.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/RogerexRobot"><img src="https://telegra.ph/file/d88e4d58ed589ece3b42f.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 </p>
