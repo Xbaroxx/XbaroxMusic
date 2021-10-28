@@ -49,6 +49,11 @@
             "required": false,
             "value": "https://telegra.ph/file/5a8e37b09b9daeb948350.png"
         },
+        "THUMB_IMAGE": {
+            "description": "fill with your costum background image link",
+            "required": false,
+            "value": "https://telegra.ph/file/5a8e37b09b9daeb948350.png"
+        },
         "OWNER_NAME": {
             "description": "fill with your username without @",
             "required": false,
